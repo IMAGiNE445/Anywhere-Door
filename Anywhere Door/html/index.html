@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anywhere Door</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<!-- header section start -->
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="#" class="logo"><span>A</span>nywhere Door</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="gallery">gallery</a>
+        <a href="#contact">contact</a>
+        <a href="#review">review</a>
+      
+    </nav>
+
+    <div class="icons">
+        <!--<i class="fas fa-bars" id="menu-bars"></i> -->
+        <i class="fas fa-search" id="searchicon"></i>
+        <i class="fas fa-user" id="login"></i>
+
+    </div>
+    <form action="" class="search-bar-container">
+        <input type="search" name="" id="searchbar" placeholder="search here... ">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+
+
+</header>   
+
+
+<div class="login-form-container">
+    <i class="fas fa-time" id="form-close"></i>
+    <form action="" class="action">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label> 
+        <p>Forget Password ? <a href="#">Click Here</a></p>
+        <p>Don't have an account ? <a href="#">Sign Up</a></p>
+        </form>
+
+
+
+
+</div>
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>Adventure is worthwhile</h3>
+        <p>discover new places with us ,adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="/Images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="/Images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="/Images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="/Images/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="/Images/vid-5.mp4"></span>
+    </div>
+    <div class="video-container">
+        <video src="/Images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+
+</section>
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>B</span>
+        <span>O</span>
+        <span>O</span>
+        <span>K</span>
+        <span class="space"></span>
+        <span>N</span>
+        <span>O</span>
+        <span>W</span>
+    </h1>
+    <div class="row">
+        <div class="image">
+            <img src="/Images/book-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputbox">
+                <h3>Where to</h3>
+                <input type="text" placeholder="Destination Name">
+            </div>
+            <div class="inputbox">
+                <h3>No.Of Guests</h3>
+                <input type="number" placeholder="No.Of Guests">
+            </div>
+            <div class="inputbox">
+                <h3>Arrival</h3>
+                <input type="date">
+            </div>
+            <div class="inputbox">
+                <h3>Leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="BOOK NOW">
+        </form>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<script src="/js/script.js" type="text/javascript"></script>
+</body>
+</html>
